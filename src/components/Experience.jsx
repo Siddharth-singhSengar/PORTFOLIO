@@ -1,12 +1,11 @@
 import React from "react";
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
-import python from "../../public/python.webp"
+import python from "../../public/python.webp";
 import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
 import django from "../../public/django.png";
-function Experiance() {
+function Experience() {
   const cardItem = [
     {
       id: 1,
@@ -41,13 +40,13 @@ function Experiance() {
   ];
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
+        <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 1 years of experiance in below technologies.
+          I've more than 1 years of experience in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
@@ -67,4 +66,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default Experience;
